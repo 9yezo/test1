@@ -1,0 +1,41 @@
+.produkt {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px; 
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(237, 221, 221);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+.produkt img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.produkt h2 {
+    color: #333;
+    margin-top: 0;
+}
+.produkt p {
+    color: #666;
+    font-size: 14px;
+}
+.produkt button {
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto 0;
+    transition: background-color 0.3s;
+    
+}
+.produkt button:hover {
+    background-color: #1abc9c;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
